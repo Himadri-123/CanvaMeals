@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="css1.css" rel="stylesheet">
+  <link href="css6.css" rel="stylesheet">
+  
+
+  <title>Canva Meals</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Canva Meals</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item active" href="Pizza.html">Pizza</a></li>
+              <li><a class="dropdown-item" href="Ice Creame.html">Ice Creame</a></li>
+              <li><a class="dropdown-item" href="Snakes And Coockies.html">Snakes And Coockies</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="Home Delevary Option.html">Home Delevary Option</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact Us.html">Contact Us</a>
+          </li>
+
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- Service-->
+
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" id="bom">
+          <div class="carousel-item active">
+            <img src="download (6).jpg" class="d-block w-100" alt="...">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="col-md-6 col-sm-12 p-5">
+      <h2>Margherita</h2>
+      <p style="color: #666;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+      <h5 style="color: #999; text-decoration: line-through;">Rs. 200</h5>
+      <h3 class="text-danger">Rs. 140/-
+        <span class="badge rounded-pill bg-danger ml-5 " style="font-size: 15px;">30% off</span>
+
+      </h3>
+      <p class="text-warning">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </p>
+      <dl class="row">
+        <dt class="col-sm-3">Ingredients</dt>
+        <dd class="col-sm-9">Classic Hand Tossed, Wheat Thin Crust, Cheese Burst, Fresh Pan Pizza, New Hand Tossed
+          (Large Size Crust)</dd>
+
+
+        <dt class="col-sm-3">Packing</dt>
+        <dd class="col-sm-9">Large Famous</dd>
+
+
+      </dl>
+      <form class="column d-grid gap-2 d-md-flex justify-content-md-center" action="#" method="POST">
+        <button type="button" class="btn btn-outline-primary ">Add to cart</button>
+        <a href="Home Delevary Option.html" type="button" class="btn btn-outline-primary">Buy now</a>
+        <button type="button" class="btn btn-outline-primary">Ask question</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5">
+    <div class="top-brands" id="constant">
+      <h1>Related Products</h1>
+    </div>
+    <div id="fadein_id" class="row flex-row flex-nowrap" style="overflow-y: scroll;">
+      <div style="width: 15rem; margin: 10px;">
+        <div class="card m-2" style="width: 15rem;">
+          <img class="card-img-top" src="Screenshot 2021-09-13 233324.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title ">Farm House
+              <br>
+              <br>
+              <h6>Rs. 126</h6>
+            </h5>
+            <div class="row">
+              <div class="d-flex">
+                <a href="Home Delevary Option.html" class="btn btn-outline-primary text-nowrap">Buy Now</a>
+                <div class="w3-container ">
+                  <a href="#" type="button" onclick="document.getElementById('id01').style.display='block'"
+                    class=" btn btn-outline-primary">Details</a>
+
+                  <div id="id01" class="w3-modal">
+                    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+                      <div class="w3-center"><br>
+                        <span onclick="document.getElementById('id01').style.display='none'"
+                          class="w3-button w3-xlarge w3-hover-red w3-display-topright"
+                          title="Close Modal">&times;</span>
+                        <img src="Screenshot 2021-09-13 233324.jpg" alt="Avatar" style="width:40%"
+                          class="w3-circle w3-margin-top">
+                      </div>
+                      <div class="fmodal container W3-center">
+                        <h3>Farm House</h3>
+                        <p>A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy,
+                          crisp capsicum, succulent mushrooms and fresh tomatoes</p>
+                        <h5 style="color: #999; text-decoration: line-through;">Rs. 180</h5>
+                        <h3 class="text-danger">Rs. 126/-
+                          <span class="badge rounded-pill bg-danger ml-5 " style="font-size: 15px;">30% off</span>
+
+                      </div>
+
+
+                      <div class="w3-container w3-light-grey w3-padding">
+                        <button class="w3-button w3-right w3-white w3-border btn btn-online-primary"
+                          onclick="document.getElementById('id01').style.display='none'">Close</button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div style="width: 15rem; margin: 10px;">
+        <div class="card m-2" style="width: 15rem;">
+          <img class="card-img-top" src="Screenshot 2021-09-13 233440.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Double Cheese Margherita</h5>
+
+            <h6>Rs. 105</h6>
+            <div class="d-flex">
+              <a href="Home Delevary Option.html" class="btn btn-outline-primary text-nowrap">Buy Now</a>
+
+              <div class="w3-container ">
+                <a href="#" type="button" onclick="document.getElementById('id02').style.display='block'"
+                  class=" btn btn-outline-primary">Details</a>
+
+                <div id="id02" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+                    <div class="w3-center"><br>
+                      <span onclick="document.getElementById('id02').style.display='none'"
+                        class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                      <img src="Screenshot 2021-09-13 233440.jpg" alt="Avatar" style="width:40%"
+                        class="w3-circle w3-margin-top">
+                    </div>
+                    <div class="fmodal container W3-center">
+                      <h3>Double Cheese Margherita</h3>
+                      <p>The ever-popular Margherita - loaded with extra cheese... oodies of it! </p>
+                      <h5 style="color: #999; text-decoration: line-through;">Rs. 150</h5>
+                      <h3 class="text-danger">Rs. 105/-
+                        <span class="badge rounded-pill bg-danger ml-5 " style="font-size: 15px;">30% off</span>
+
+                    </div>
+
+
+                    <div class="w3-container w3-light-grey w3-padding">
+                      <button class="w3-button w3-right w3-white w3-border btn btn-online-primary"
+                        onclick="document.getElementById('id02').style.display='none'">Close</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div style="width: 15rem; margin: 10px;">
+        <div class="card m-2" style="width: 15rem;">
+          <img class="card-img-top" src="Screenshot 2021-09-13 233551.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Peppy Paneer</h5>
+            <br>
+            <h6>Rs. 140</h6>
+            <div class="d-flex">
+              <a href="Home Delevary Option.html" class="btn btn-outline-primary text-nowrap">Buy Now</a>
+
+              <div class="w3-container ">
+                <a href="#" type="button" onclick="document.getElementById('id03').style.display='block'"
+                  class=" btn btn-outline-primary">Details</a>
+
+                <div id="id03" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+                    <div class="w3-center"><br>
+                      <span onclick="document.getElementById('id01').style.display='none'"
+                        class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                      <img src="Screenshot 2021-09-13 233551.jpg" alt="Avatar" style="width:40%"
+                        class="w3-circle w3-margin-top">
+                    </div>
+                    <div class="fmodal container W3-center">
+                      <h3>Peppy Paneer</h3>
+                      <p>Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful! </p>
+                      <h5 style="color: #999; text-decoration: line-through;">Rs. 200</h5>
+                      <h3 class="text-danger">Rs. 140/-
+                        <span class="badge rounded-pill bg-danger ml-5 " style="font-size: 15px;">30% off</span>
+
+                    </div>
+
+
+                    <div class="w3-container w3-light-grey w3-padding">
+                      <button class="w3-button w3-right w3-white w3-border btn btn-online-primary"
+                        onclick="document.getElementById('id03').style.display='none'">Close</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div style="width: 15rem; margin: 10px;">
+        <div class="card m-2" style="width: 15rem;">
+          <img class="card-img-top" src="Screenshot 2021-09-13 234000.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Mexican Green Wave</h5>
+            <br>
+            <h6>Rs. 109</h6>
+            <div class="d-flex">
+              <a href="Home Delevary Option.html" class="btn btn-outline-primary text-nowrap">Buy Now</a>
+
+              <div class="w3-container ">
+                <a href="#" type="button" onclick="document.getElementById('id04').style.display='block'"
+                  class=" btn btn-outline-primary">Details</a>
+
+                <div id="id04" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+                    <div class="w3-center"><br>
+                      <span onclick="document.getElementById('id04').style.display='none'"
+                        class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                      <img src="Screenshot 2021-09-13 233551.jpg" alt="Avatar" style="width:40%"
+                        class="w3-circle w3-margin-top">
+                    </div>
+                    <div class="fmodal container W3-center">
+                      <h3>Mexican Green Wave
+                      </h3>
+                      <p>A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal
+                        sprinkling of exotic Mexican herbs.</p>
+                      <h5 style="color: #999; text-decoration: line-through;">Rs. 155</h5>
+                      <h3 class="text-danger">Rs. 109/-
+                        <span class="badge rounded-pill bg-danger ml-5 " style="font-size: 15px;">30% off</span>
+
+                    </div>
+
+
+                    <div class="w3-container w3-light-grey w3-padding">
+                      <button class="w3-button w3-right w3-white w3-border btn btn-online-primary"
+                        onclick="document.getElementById('id04').style.display='none'">Close</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <div style="width: 15rem; margin: 10px;">
+        <div class="card m-2" style="width: 15rem;">
+          <img class="card-img-top" src="Screenshot 2021-09-13 234159.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Deluxe Veggie</h5>
+            <br>
+            <h6>Rs. 116</h6>
+            <div class="d-flex">
+              <a href="Home Delevary Option.html" class="btn btn-outline-primary text-nowrap">Buy Now</a>
+
+              <div class="w3-container ">
+                <a href="#" type="button" onclick="document.getElementById('id05').style.display='block'"
+                  class=" btn btn-outline-primary">Details</a>
+
+                <div id="id05" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+                    <div class="w3-center"><br>
+                      <span onclick="document.getElementById('id05').style.display='none'"
+                        class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                      <img src="Screenshot 2021-09-13 234159.jpg" alt="Avatar" style="width:40%"
+                        class="w3-circle w3-margin-top">
+                    </div>
+                    <div class="fmodal container W3-center">
+                      <h3>Deluxe Veggie
+                      </h3>
+                      <p>For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all..
+                        The onions, the capsicum, those delectable mushrooms - with paneer and golden corn to top it
+                        all.
+                      </p>
+                      <h5 style="color: #999; text-decoration: line-through;">Rs. 165</h5>
+                      <h3 class="text-danger">Rs. 116/-
+                        <span class="badge rounded-pill bg-danger ml-5 " style="font-size: 15px;">30% off</span>
+
+                    </div>
+
+
+                    <div class="w3-container w3-light-grey w3-padding">
+                      <button class="w3-button w3-right w3-white w3-border btn btn-online-primary"
+                        onclick="document.getElementById('id05').style.display='none'">Close</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div style="width: 15rem; margin: 10px;">
+        <div class="card m-2" style="width: 15rem;">
+          <img class="card-img-top" src="Screenshot 2021-09-13 234505.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">PEPPER BARBECUE CHICKEN</h5>
+
+            <h6>Rs. 112</h6>
+            <div class="d-flex"><a href="Home Delevary Option.html" class="btn btn-outline-primary text-nowrap">Buy
+                Now</a>
+
+
+              <div class="w3-container ">
+                <a href="#" type="button" onclick="document.getElementById('id06').style.display='block'"
+                  class=" btn btn-outline-primary">Details</a>
+
+                <div id="id06" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+                    <div class="w3-center"><br>
+                      <span onclick="document.getElementById('id06').style.display='none'"
+                        class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                      <img src="Screenshot 2021-09-13 234505.jpg" alt="Avatar" style="width:40%"
+                        class="w3-circle w3-margin-top">
+                    </div>
+                    <div class="fmodal container W3-center">
+                      <h3>PEPPER BARBECUE CHICKEN
+                      </h3>
+                      <p>Pepper Barbecue Chicken I Cheese</p>
+
+                      <h5 style="color: #999; text-decoration: line-through;">Rs. 160</h5>
+                      <h3 class="text-danger">Rs. 112/-
+                        <span class="badge rounded-pill bg-danger ml-5 " style="font-size: 15px;">30% off</span>
+
+                    </div>
+
+
+                    <div class="w3-container w3-light-grey w3-padding">
+                      <button class="w3-button w3-right w3-white w3-border btn btn-online-primary"
+                        onclick="document.getElementById('id06').style.display='none'">Close</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <div style="width: 15rem; margin: 10px;">
+        <div class="card m-2" style="width: 15rem;">
+          <img class="card-img-top" src="Screenshot 2021-09-13 234610.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Non Veg Supreme</h5>
+            <br>
+            <h6>Rs. 126</h6>
+            <div class="d-flex"><a href="Home Delevary Option.html" class="btn btn-outline-primary text-nowrap">Buy
+                Now</a>
+
+
+              <div class="w3-container ">
+                <a href="#" type="button" onclick="document.getElementById('id07').style.display='block'"
+                  class=" btn btn-outline-primary">Details</a>
+
+                <div id="id07" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+                    <div class="w3-center"><br>
+                      <span onclick="document.getElementById('id07').style.display='none'"
+                        class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                      <img src="Screenshot 2021-09-13 234610.jpg" alt="Avatar" style="width:40%"
+                        class="w3-circle w3-margin-top">
+                    </div>
+                    <div class="fmodal container W3-center">
+                      <h3>Non Veg Supreme
+                      </h3>
+                      <p>Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, Pepper BBQ Chicken,
+                        Peri-Peri Chicken, Grilled Chicken Rashers.</p>
+                      <h5 style="color: #999; text-decoration: line-through;">Rs. 180</h5>
+                      <h3 class="text-danger">Rs. 126/-
+                        <span class="badge rounded-pill bg-danger ml-5 " style="font-size: 15px;">30% off</span>
+
+                    </div>
+
+
+                    <div class="w3-container w3-light-grey w3-padding">
+                      <button class="w3-button w3-right w3-white w3-border btn btn-online-primary"
+                        onclick="document.getElementById('id07').style.display='none'">Close</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <div style="width: 15rem; margin: 10px;">
+        <div class="card m-2" style="width: 15rem;">
+          <img class="card-img-top" src="Screenshot 2021-09-13 234653.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">CHICKEN FIESTA</h5>
+            <br>
+            <h6>Rs. 137</h6>
+            <div class="d-flex"><a href="Home Delevary Option.html" class="btn btn-outline-primary text-nowrap">Buy
+                Now</a>
+
+
+              <div class="w3-container ">
+                <a href="#" type="button" onclick="document.getElementById('id08').style.display='block'"
+                  class=" btn btn-outline-primary">Details</a>
+
+                <div id="id08" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+                    <div class="w3-center"><br>
+                      <span onclick="document.getElementById('id08').style.display='none'"
+                        class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                      <img src="Screenshot 2021-09-13 234653.jpg" alt="Avatar" style="width:40%"
+                        class="w3-circle w3-margin-top">
+                    </div>
+                    <div class="fmodal container W3-center">
+                      <h3>CHICKEN FIESTA
+                      </h3>
+                      <p>Grilled Chicken Rashers I Peri-Peri Chicken I Onion I Capsicum. </p>
+                      <h5 style="color: #999; text-decoration: line-through;">Rs. 195</h5>
+                      <h3 class="text-danger">Rs. 137/-
+                        <span class="badge rounded-pill bg-danger ml-5 " style="font-size: 15px;">30% off</span>
+
+                    </div>
+
+
+                    <div class="w3-container w3-light-grey w3-padding">
+                      <button class="w3-button w3-right w3-white w3-border btn btn-online-primary"
+                        onclick="document.getElementById('id08').style.display='none'">Close</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div style="width: 15rem; margin: 10px;">
+        <div class="card m-2" style="width: 15rem;">
+          <img class="card-img-top" src="Screenshot 2021-09-13 234829.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">VEG LOADED</h5>
+            <br>
+            <h6>Rs. 126</h6>
+            <div class="d-flex"><a href="Home Delevary Option.html" class="btn btn-outline-primary text-nowrap">Buy
+                Now</a>
+
+              <div class="w3-container ">
+                <a href="#" type="button" onclick="document.getElementById('id09').style.display='block'"
+                  class=" btn btn-outline-primary">Details</a>
+
+                <div id="id09" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+                    <div class="w3-center"><br>
+                      <span onclick="document.getElementById('id09').style.display='none'"
+                        class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                      <img src="Screenshot 2021-09-13 234829.jpg" alt="Avatar" style="width:40%"
+                        class="w3-circle w3-margin-top">
+                    </div>
+                    <div class="fmodal container W3-center">
+                      <h3>VEG LOADED
+                      </h3>
+                      <p>Tomato | Grilled Mushroom |Jalapeno |Golden Corn | Beans in a fresh pan crust. </p>
+                      <h5 style="color: #999; text-decoration: line-through;">Rs. 180</h5>
+                      <h3 class="text-danger">Rs. 126/-
+                        <span class="badge rounded-pill bg-danger ml-5 " style="font-size: 15px;">30% off</span>
+
+                    </div>
+
+
+                    <div class="w3-container w3-light-grey w3-padding">
+                      <button class="w3-button w3-right w3-white w3-border btn btn-online-primary"
+                        onclick="document.getElementById('id09').style.display='none'">Close</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="container-fluid footer mt-5">
+    <div class="row p-3 pt-5">
+      <div class="col-md-5 col-sm-12 address">
+        <h5>Canva Meals <span>Pvt. Ltd</span></h5>
+        <p>Canva Meals Pvt. Ltd, West bengal, India, founded by Himadri Shekhar Haldar in 2021, offers a wide
+          selection of Pizza, Ice Creame and Snakes or Coockies and many other thing .</p>
+        <ul>
+          <li>Canva Meals Pvt Ltd ,<br>
+            Daulatput , Arambagh , Hooghly,<br>
+            Arambagh – 712601<br>
+            WEST BENGAL, INDIA
+          </li>
+          <li>
+            <i class="fas fa-phone-square"></i> +91 9064453710 (Support 11:00 AM - 07:00 PM)
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i> himadri9762@gmail.com
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i> himadrishekharhaldar@gmail.com
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-12">
+        <ul>
+
+          <li><a href="Contact Us.html">Contact us</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-12">
+        <ul>
+          <li><a href="Turms and condition.html">Terms & Conditions</a></li>
+          <li><a href="Turms and condition.html">Privacy policy</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-12">
+        <ul>
+          <li class="m-1">
+            <h4>News letter</h4>
+          </li>
+          <li><input class="form-control w-600 " id="footer-email" type="email" placeholder="Email@gmail.com"
+              required="required" /></li>
+          <li class="m-1"><button type="submit" class="btn btn-outline-success">Subscribe</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright-line">
+      © Copyright 2020 by Himadri Shekhar Haldar (<span>himadrishekharhaldar@gmail.com</span>)
+    </div>
+  </div>
+  <!-- footer end -->
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
